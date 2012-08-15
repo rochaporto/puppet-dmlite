@@ -1,0 +1,9 @@
+This module provides puppet resources to manage entities related to the DMLITE
+stack of plugins and services.
+
+It includes the classes and definitions required to install and configure
+the core of DMLITE as well as all its plugins - adapter, profiler, MySQL,
+memcache, etc.
+
+More information:
+https://svnweb.cern.ch/trac/lcgdm/wiki/Dpm/Dev/Dmlite
