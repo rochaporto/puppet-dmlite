@@ -1,11 +1,11 @@
-import 'dmlite-plugins-adapter.pp'
-import 'dmlite-plugins-librarian.pp'
-import 'dmlite-plugins-memcache.pp'
-import 'dmlite-plugins-mysql.pp'
-import 'dmlite-plugins-oracle.pp'
-import 'dmlite-plugins-profiler.pp'
-import 'dmlite-plugins-s3.pp'
-import 'dmlite-plugins-vfs.pp'
+import 'plugins-adapter.pp'
+import 'plugins-librarian.pp'
+import 'plugins-memcache.pp'
+import 'plugins-mysql.pp'
+import 'plugins-oracle.pp'
+import 'plugins-profiler.pp'
+import 'plugins-s3.pp'
+import 'plugins-vfs.pp'
 
 class dmlite::params {
     $libdir = $architecture ? {
